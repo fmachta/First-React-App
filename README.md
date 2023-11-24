@@ -1,74 +1,31 @@
-# Getting Started with Create React App
+# First React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+Welcome to my first React application. This project is meant to showcase the power and simplicity of React, a popular JavaScript library for building user interfaces. The primary goal is to illustrate the ease of using React compared to vanilla JavaScript for DOM manipulation and to demonstrate the integration of external APIs.
 
-## Available Scripts
+## Live Demo
+Check out the live version by clicking the github pages link: https://fmachta.github.io/First-React-App/
+## Project Structure
 
-In the project directory, you can run:
+## Pictures
+<img width="500" alt="Screen Shot 2023-11-24 at 3 49 02 PM" src="https://github.com/fmachta/First-React-App/assets/91919641/c0620ea1-ed18-4a0b-8292-a099ca27db88">
+<img width="500" alt="Screen Shot 2023-11-24 at 3 49 13 PM" src="https://github.com/fmachta/First-React-App/assets/91919641/a4a5f7b6-d2c3-4cc1-af34-a6f5aca2b668">
+<img width="500" alt="Screen Shot 2023-11-24 at 3 49 22 PM" src="https://github.com/fmachta/First-React-App/assets/91919641/4c2a0826-dd37-4b4a-8802-0087c4b5167c">
 
-### `npm start`
+### Page 1: Home Page
+- **Description**: The landing page of the application.
+- **Features**: A warm welcome and introduction to the application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Page 2: TicTacToe
+- **Description**: A classic Tic-Tac-Toe game built with React.
+- **Features**: Interactive gameplay showcasing React's state management.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Page 3: API Integration
+- **Description**: Demonstrates API consumption in React.
+- **API Used**: Coin Cap API.
+- **Features**: Displays data fetched from the API, showcasing React's capability to handle external data.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# First-React-App
-# First-React-App
-# First-React-App
-# First-React-App
+## Technologies Used
+- React
+- React Router for page navigation
+- External APIs for data fetching (CoinCap API)
