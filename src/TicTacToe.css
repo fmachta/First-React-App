@@ -1,0 +1,45 @@
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .game-board {
+    margin: 10px auto;
+    padding: 10px auto;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+
+
+
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    
+  }
+  
+  .game-info {
+    position: static;
+    margin-top: 120px;
+  }
+
+  .title {
+    text-align: center;
+  }
+  
