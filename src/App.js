@@ -13,7 +13,7 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/First-React-App">Home</Link>
             </li>
             <li>
               <Link to="/tictactoe">Tic-Tac-Toe</Link>
@@ -25,7 +25,7 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/First-React-App" element={<Home />} />
           <Route path="/tictactoe" element={<TicTacToe />} />
           <Route path="/api" element={<ApiPage />} />
         </Routes>
