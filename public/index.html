@@ -4,40 +4,112 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#0d1117" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Feras Machta - Software Engineer | Full-Stack Developer | AI Enthusiast. Portfolio showcasing projects, skills, and experience in software development."
     />
+    <meta name="keywords" content="Feras Machta, Software Engineer, Full Stack Developer, React, Flutter, AI, Machine Learning, Portfolio" />
+    <meta name="author" content="Feras Machta" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Feras Machta | Software Engineer Portfolio" />
+    <meta property="og:description" content="Entry-level Software Engineer with expertise in full-stack development, AI integration, and mobile app development." />
+    <meta property="og:url" content="https://fmachta.github.io/First-React-App" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Feras Machta | Software Engineer Portfolio" />
+    <meta name="twitter:description" content="Entry-level Software Engineer with expertise in full-stack development, AI integration, and mobile app development." />
+    
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts - JetBrains Mono & Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <title>Feras Machta | Software Engineer</title>
+    
+    <!-- Preload critical resources -->
+    <style>
+      /* Critical CSS for initial load */
+      body {
+        margin: 0;
+        background: #0d1117;
+      }
+      
+      /* Loading screen */
+      .initial-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #0d1117;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease;
+      }
+      
+      .initial-loader.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+      
+      .loader-content {
+        text-align: center;
+        color: #f0b429;
+        font-family: 'JetBrains Mono', monospace;
+      }
+      
+      .loader-spinner {
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(240, 180, 41, 0.15);
+        border-top-color: #f0b429;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 1rem;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <!-- Loading screen -->
+    <div class="initial-loader" id="initial-loader">
+      <div class="loader-content">
+        <div class="loader-spinner"></div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    
+    <script>
+      // Hide loader when React app mounts
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          var loader = document.getElementById('initial-loader');
+          if (loader) {
+            loader.classList.add('hidden');
+            setTimeout(function() {
+              loader.style.display = 'none';
+            }, 500);
+          }
+        }, 500);
+      });
+    </script>
   </body>
 </html>
