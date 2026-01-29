@@ -1,31 +1,78 @@
-# First React Application
+# Feras Machta | Portfolio Website
 
-## Introduction
-Welcome to my first React application. This project is meant to showcase the power and simplicity of React, a popular JavaScript library for building user interfaces. The primary goal is to illustrate the ease of using React compared to vanilla JavaScript for DOM manipulation and to demonstrate the integration of external APIs.
+A modern, visually stunning personal portfolio website built with React, featuring smooth animations, interactive elements, and a sleek Midnight & Gold design theme.
 
-## Live Demo
-Check out the live version by clicking the github pages link: https://fmachta.github.io/First-React-App/
-## Project Structure
+## 🌐 Live Demo
 
-## Pictures
-<img width="500" alt="Screen Shot 2023-11-24 at 3 49 02 PM" src="https://github.com/fmachta/First-React-App/assets/91919641/c0620ea1-ed18-4a0b-8292-a099ca27db88">
-<img width="500" alt="Screen Shot 2023-11-24 at 3 49 13 PM" src="https://github.com/fmachta/First-React-App/assets/91919641/a4a5f7b6-d2c3-4cc1-af34-a6f5aca2b668">
-<img width="500" alt="Screen Shot 2023-11-24 at 3 49 22 PM" src="https://github.com/fmachta/First-React-App/assets/91919641/4c2a0826-dd37-4b4a-8802-0087c4b5167c">
+**[View Portfolio →](https://fmachta.github.io/First-React-App/)**
 
-### Page 1: Home Page
-- **Description**: The landing page of the application.
-- **Features**: A warm welcome and introduction to the application.
+## ✨ Features
 
-### Page 2: TicTacToe
-- **Description**: A classic Tic-Tac-Toe game built with React.
-- **Features**: Interactive gameplay showcasing React's state management.
+- **Elegant Design** - Dark theme with warm gold accents for a professional, memorable look
+- **Smooth Animations** - Staggered fade-ins, floating orbs, and interactive hover effects
+- **Responsive Layout** - Fully optimized for desktop, tablet, and mobile devices
+- **Interactive Background** - Canvas-based floating orbs that react to mouse movement
+- **Typing Animation** - Dynamic text that cycles through professional titles
 
-### Page 3: API Integration
-- **Description**: Demonstrates API consumption in React.
-- **API Used**: Coin Cap API.
-- **Features**: Displays data fetched from the API, showcasing React's capability to handle external data.
+## 📑 Sections
 
-## Technologies Used
-- React
-- React Router for page navigation
-- External APIs for data fetching (CoinCap API)
+| Section | Description |
+|---------|-------------|
+| **Hero** | Animated introduction with name and dynamic typing effect |
+| **About** | Terminal-style bio with quick stats |
+| **Education** | Timeline layout showcasing academic background |
+| **Experience** | Professional work history with detailed responsibilities |
+| **Projects** | Featured projects with tech stacks and GitHub links |
+| **Skills** | Animated progress bars organized by category |
+| **Contact** | Direct contact information and social links |
+
+## 🛠️ Tech Stack
+
+- **React 18** - UI framework
+- **CSS3** - Custom animations & styling
+- **Canvas API** - Interactive background effects
+- **GitHub Pages** - Hosting & deployment
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/fmachta/First-React-App.git
+
+# Navigate to project directory
+cd First-React-App
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── App.js          # Main component with all sections
+├── App.css         # Styles and animations
+├── index.js        # React entry point
+└── index.css       # Global styles
+```
+
+## 📬 Contact
+
+- **Email**: fmachta88@gmail.com
+- **LinkedIn**: [linkedin.com/in/feras-machta](https://linkedin.com/in/feras-machta)
+- **GitHub**: [github.com/fmachta](https://github.com/fmachta)
+
+---
+
+<p align="center">
+  Designed & Built by <strong>Feras Machta</strong> © 2025
+</p>
